@@ -23,6 +23,15 @@ use std::{
     collections::HashMap,
     fmt::Debug,
     rc::Rc,
+    string::String, // Added
+    vec::Vec, // Added
+    option::Option, // Added
+    result::Result, // Added
+    mem::drop, // Added
+    boxed::Box, // Added
+    ops::Fn, // Added
+    marker::{Send, Sync}, // Added
+    default::Default, // Added
 };
 use util::{decode_wide, encode_wide, Accel};
 use windows_sys::Win32::{
